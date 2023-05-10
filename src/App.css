@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: #26caa6;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.subtitle {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  background: #f6feff;
+  border-radius: 10px;
+  box-shadow: 17px 15px 17px -10px rgba(0,0,0,0.34);
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  gap: 10px;
+}
+
+.warning {
+  color: red;
+  font-size: 12px;
+}
+
+.image {
+  width: 20vw;
+}
+
+.mid {
+  border: 1px solid black;
+  height: 50vh;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  gap: 10px;
+}
+
+.btnConvert {
+  height: 10vh;
+  width: 20vw;
+  background-color: #312e2c;
+  border-radius: 10px; 
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btnConvert:hover {
+  scale: 0.95;
+  transition: scale 0.1s ease 0s;
+}
+
+.progressBar {
+  height: 3vh;
+  width: 20vw;
+}
