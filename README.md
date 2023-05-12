@@ -29,8 +29,6 @@ The user can upload an image using the “Choose File” button and the OCR proc
 
 ![Screenshot 2](./public/convert-image-to-text-2.png)
 
-Screenshot 2
-
 ## Contributing
 
 Contributions to this project are welcome! If you find a bug or would like to add a new feature, feel free to submit a pull request.
